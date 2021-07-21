@@ -1,0 +1,118 @@
+* {
+	font-family: 'Roboto',cursive;
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	width: 100vw;
+	min-width: 700px;
+
+}
+
+.header {
+	display: flex;
+	color: #fff;
+	background-color: rgb(0,128,0);
+	height: 60px;
+	min-width: 100%;
+	line-height: 60px;
+	text-align: center;
+	position: fixed;
+	z-index: 2;
+}
+
+.header-container{
+	padding: 0 10px;
+	display: flex;
+
+}
+
+.h1 {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.fruit {
+	height: 50px;
+	padding-right: 5px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+.main {
+	min-width: 100vw;
+	height: 100vh;
+	position: relative;
+	border: 3px solid green;
+}
+
+.main-div {
+	margin: 0;
+	height: 50vh;
+	min-width: 100vw;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-color: lightgreen;
+}
+
+.buttons-container{
+	display: block;
+	margin: 12.5% auto;
+	width: 20vw;
+	text-align: center;
+}
+
+.form-container {
+	display: block;
+	margin: 6% auto;
+	width: 41vw;
+	text-align:left;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.button {
+	display: block;
+	color: white;
+	height: 50px;
+	width: 200px;
+	margin: 10px auto;
+	background-color: green;
+	border: 0px;
+}
+
+.button-voltar {
+	display: block;
+	color: white;
+	height: 50px;
+	width: 200px;
+	margin-top: 70px;
+	margin-left: 10px;
+	background-color: green;
+	border: 0px;
+}
+
+.form-field {
+	/* display: block; */
+	margin: 0 auto;
+	border: none;
+}
+
+input[type=text], select {
+    width: 20vw;
+	height: 40px;
+    /* padding-top: 12px; */
+    display: block;
+    margin: 4px auto;  
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+	text-align: center;
+  }
