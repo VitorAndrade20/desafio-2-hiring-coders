@@ -61,7 +61,7 @@ body {
 
 .buttons-container{
 	display: block;
-	margin: 12.5% auto;
+	margin: 20vh auto;
 	width: 20vw;
 	text-align: center;
 }
@@ -105,7 +105,7 @@ body {
 	border: none;
 }
 
-input[type=text], select {
+input[type=text], input[type=email], input[type=number], select {
     width: 20vw;
 	height: 40px;
     /* padding-top: 12px; */
